@@ -1,0 +1,211 @@
+Collecting pwntools
+  Using cached pwntools-4.15.0-py2.py3-none-any.whl.metadata (5.3 kB)
+Collecting paramiko>=1.15.2 (from pwntools)
+  Using cached paramiko-5.1.0-py3-none-any.whl.metadata (3.8 kB)
+Collecting mako>=1.0.0 (from pwntools)
+  Using cached mako-1.4.3-py3-none-any.whl.metadata (2.9 kB)
+Collecting pyelftools>=0.29 (from pwntools)
+  Using cached pyelftools-0.33-py3-none-any.whl.metadata (1.0 kB)
+Collecting capstone>=3.0.5rc2 (from pwntools)
+  Using cached capstone-6.0.0a11-cp38-abi3-macosx_10_9_x86_64.whl.metadata (3.8 kB)
+Collecting ropgadget>=5.3 (from pwntools)
+  Using cached ropgadget-7.7-py3-none-any.whl.metadata (1.0 kB)
+Collecting pyserial>=2.7 (from pwntools)
+  Using cached pyserial-3.5-py2.py3-none-any.whl.metadata (1.6 kB)
+Collecting requests>=2.0 (from pwntools)
+  Using cached requests-2.34.2-py3-none-any.whl.metadata (4.8 kB)
+Requirement already satisfied: pip>=6.0.8 in ./.venv/lib/python3.14/site-packages (from pwntools) (26.3)
+Collecting pygments>=2.0 (from pwntools)
+  Using cached pygments-2.21.0-py3-none-any.whl.metadata (2.5 kB)
+Collecting pysocks (from pwntools)
+  Using cached PySocks-1.7.1-py3-none-any.whl.metadata (13 kB)
+Collecting python-dateutil (from pwntools)
+  Using cached python_dateutil-4.0.0-py3-none-any.whl.metadata (7.3 kB)
+Collecting packaging (from pwntools)
+  Using cached packaging-26.3-py3-none-any.whl.metadata (3.5 kB)
+Collecting psutil>=3.3.0 (from pwntools)
+  Using cached psutil-7.2.2-cp36-abi3-macosx_10_9_x86_64.whl.metadata (22 kB)
+Collecting intervaltree>=3.0 (from pwntools)
+  Using cached intervaltree-3.2.1-py2.py3-none-any.whl.metadata (12 kB)
+Collecting sortedcontainers (from pwntools)
+  Using cached sortedcontainers-2.4.0-py2.py3-none-any.whl.metadata (10 kB)
+Collecting unicorn!=2.1.3,!=2.1.4,>=2.0.1 (from pwntools)
+  Using cached unicorn-2.1.2.tar.gz (2.9 MB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Collecting six>=1.12.0 (from pwntools)
+  Using cached six-1.17.0-py2.py3-none-any.whl.metadata (1.7 kB)
+Collecting rpyc (from pwntools)
+  Using cached rpyc-6.0.2-py3-none-any.whl.metadata (3.5 kB)
+Collecting colored_traceback (from pwntools)
+  Using cached colored_traceback-0.4.2-py3-none-any.whl.metadata (4.6 kB)
+Collecting unix-ar (from pwntools)
+  Using cached unix_ar-0.2.1-py2.py3-none-any.whl.metadata (1.9 kB)
+Collecting zstandard (from pwntools)
+  Using cached zstandard-0.25.0-cp314-cp314-macosx_10_13_x86_64.whl.metadata (3.3 kB)
+Collecting MarkupSafe>=2.0 (from mako>=1.0.0->pwntools)
+  Using cached markupsafe-3.0.4-cp314-cp314-macosx_10_15_x86_64.whl.metadata (2.7 kB)
+Collecting bcrypt>=3.2 (from paramiko>=1.15.2->pwntools)
+  Using cached bcrypt-5.0.0-cp39-abi3-macosx_10_12_universal2.whl.metadata (10 kB)
+Collecting cryptography>=3.3 (from paramiko>=1.15.2->pwntools)
+  Using cached cryptography-50.0.2-cp314-abi3-macosx_10_12_x86_64.whl
+Collecting invoke>=2.0 (from paramiko>=1.15.2->pwntools)
+  Using cached invoke-3.0.3-py3-none-any.whl.metadata (3.2 kB)
+Collecting pynacl>=1.5 (from paramiko>=1.15.2->pwntools)
+  Using cached pynacl-1.6.2-cp38-abi3-macosx_10_10_universal2.whl.metadata (10.0 kB)
+Collecting cffi>=2.0.0 (from cryptography>=3.3->paramiko>=1.15.2->pwntools)
+  Using cached cffi-2.1.1-cp314-cp314-macosx_10_15_x86_64.whl.metadata (2.5 kB)
+Collecting pycparser (from cffi>=2.0.0->cryptography>=3.3->paramiko>=1.15.2->pwntools)
+  Using cached pycparser-3.12-py3-none-any.whl.metadata (9.7 kB)
+Collecting charset_normalizer<4,>=2 (from requests>=2.0->pwntools)
+  Using cached charset_normalizer-3.5.2-cp314-cp314-macosx_10_15_universal2.whl.metadata (46 kB)
+Collecting idna<4,>=2.5 (from requests>=2.0->pwntools)
+  Using cached idna-3.20-py3-none-any.whl.metadata (7.2 kB)
+Collecting urllib3<3,>=1.26 (from requests>=2.0->pwntools)
+  Using cached urllib3-2.8.0-py3-none-any.whl.metadata (7.4 kB)
+Collecting certifi>=2023.5.7 (from requests>=2.0->pwntools)
+  Using cached certifi-2026.10.23-py3-none-any.whl.metadata (2.5 kB)
+Collecting tzdata (from python-dateutil->pwntools)
+  Using cached tzdata-2026.6-py2.py3-none-any.whl.metadata (1.4 kB)
+Collecting plumbum (from rpyc->pwntools)
+  Using cached plumbum-2.0.2-py3-none-any.whl.metadata (8.5 kB)
+Using cached pwntools-4.15.0-py2.py3-none-any.whl (12.9 MB)
+Using cached capstone-6.0.0a11-cp38-abi3-macosx_10_9_x86_64.whl (2.1 MB)
+Using cached intervaltree-3.2.1-py2.py3-none-any.whl (25 kB)
+Using cached mako-1.4.3-py3-none-any.whl (80 kB)
+Using cached markupsafe-3.0.4-cp314-cp314-macosx_10_15_x86_64.whl (11 kB)
+Using cached paramiko-5.1.0-py3-none-any.whl (211 kB)
+Using cached bcrypt-5.0.0-cp39-abi3-macosx_10_12_universal2.whl (495 kB)
+Using cached cffi-2.1.1-cp314-cp314-macosx_10_15_x86_64.whl (184 kB)
+Using cached invoke-3.0.3-py3-none-any.whl (160 kB)
+Using cached psutil-7.2.2-cp36-abi3-macosx_10_9_x86_64.whl (129 kB)
+Using cached pyelftools-0.33-py3-none-any.whl (201 kB)
+Using cached pygments-2.21.0-py3-none-any.whl (1.3 MB)
+Using cached pynacl-1.6.2-cp38-abi3-macosx_10_10_universal2.whl (388 kB)
+Using cached pyserial-3.5-py2.py3-none-any.whl (90 kB)
+Using cached requests-2.34.2-py3-none-any.whl (73 kB)
+Using cached charset_normalizer-3.5.2-cp314-cp314-macosx_10_15_universal2.whl (367 kB)
+Using cached idna-3.20-py3-none-any.whl (69 kB)
+Using cached urllib3-2.8.0-py3-none-any.whl (135 kB)
+Using cached certifi-2026.10.23-py3-none-any.whl (135 kB)
+Using cached ropgadget-7.7-py3-none-any.whl (32 kB)
+Using cached six-1.17.0-py2.py3-none-any.whl (11 kB)
+Using cached colored_traceback-0.4.2-py3-none-any.whl (5.5 kB)
+Using cached packaging-26.3-py3-none-any.whl (129 kB)
+Using cached pycparser-3.12-py3-none-any.whl (62 kB)
+Using cached PySocks-1.7.1-py3-none-any.whl (16 kB)
+Using cached python_dateutil-4.0.0-py3-none-any.whl (92 kB)
+Using cached rpyc-6.0.2-py3-none-any.whl (74 kB)
+Using cached plumbum-2.0.2-py3-none-any.whl (168 kB)
+Using cached sortedcontainers-2.4.0-py2.py3-none-any.whl (29 kB)
+Using cached tzdata-2026.6-py2.py3-none-any.whl (348 kB)
+Using cached unix_ar-0.2.1-py2.py3-none-any.whl (6.5 kB)
+Using cached zstandard-0.25.0-cp314-cp314-macosx_10_13_x86_64.whl (795 kB)
+Building wheels for collected packages: unicorn
+  Building wheel for unicorn (pyproject.toml): started
+  Building wheel for unicorn (pyproject.toml): finished with status 'error'
+  error: subprocess-exited-with-error
+  
+  × Building wheel for unicorn (pyproject.toml) did not run successfully.
+  │ exit code: 1
+  ╰─> [87 lines of output]
+      running bdist_wheel
+      running build
+      running build_py
+      Building C extensions
+      Traceback (most recent call last):
+        File "/Users/leecarames/Desktop/source/c_hack/.venv/bin/cmake", line 3, in <module>
+          from cmake import cmake
+      ModuleNotFoundError: No module named 'cmake'
+      Traceback (most recent call last):
+        File "/Users/leecarames/Desktop/source/c_hack/.venv/lib/python3.14/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py", line 406, in <module>
+          main()
+          ~~~~^^
+        File "/Users/leecarames/Desktop/source/c_hack/.venv/lib/python3.14/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py", line 381, in main
+          json_out["return_val"] = hook(**hook_input["kwargs"])
+                                   ~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+        File "/Users/leecarames/Desktop/source/c_hack/.venv/lib/python3.14/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py", line 286, in build_wheel
+          return _build_backend().build_wheel(
+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+              wheel_directory, config_settings, metadata_directory
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+          )
+          ^
+        File "/private/var/folders/kl/4wkgjbfn4dv029bqvxk36j3h0000gn/T/pip-build-env-iw4phqlh/overlay/lib/python3.14/site-packages/setuptools/build_meta.py", line 441, in build_wheel
+          return _build(['bdist_wheel', '--dist-info-dir', str(metadata_directory)])
+        File "/private/var/folders/kl/4wkgjbfn4dv029bqvxk36j3h0000gn/T/pip-build-env-iw4phqlh/overlay/lib/python3.14/site-packages/setuptools/build_meta.py", line 429, in _build
+          return self._build_with_temp_dir(
+                 ~~~~~~~~~~~~~~~~~~~~~~~~~^
+              cmd,
+              ^^^^
+          ...<3 lines>...
+              self._arbitrary_args(config_settings),
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+          )
+          ^
+        File "/private/var/folders/kl/4wkgjbfn4dv029bqvxk36j3h0000gn/T/pip-build-env-iw4phqlh/overlay/lib/python3.14/site-packages/setuptools/build_meta.py", line 410, in _build_with_temp_dir
+          self.run_setup()
+          ~~~~~~~~~~~~~~^^
+        File "/private/var/folders/kl/4wkgjbfn4dv029bqvxk36j3h0000gn/T/pip-build-env-iw4phqlh/overlay/lib/python3.14/site-packages/setuptools/build_meta.py", line 317, in run_setup
+          exec(code, locals())  # noqa: S102 # exec is intentional here
+          ~~~~^^^^^^^^^^^^^^^^
+        File "<string>", line 149, in <module>
+        File "/private/var/folders/kl/4wkgjbfn4dv029bqvxk36j3h0000gn/T/pip-build-env-iw4phqlh/overlay/lib/python3.14/site-packages/setuptools/__init__.py", line 117, in setup
+          return distutils.core.setup(**attrs)  # type: ignore[return-value]
+                 ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+        File "/private/var/folders/kl/4wkgjbfn4dv029bqvxk36j3h0000gn/T/pip-build-env-iw4phqlh/overlay/lib/python3.14/site-packages/setuptools/_distutils/core.py", line 168, in setup
+          return run_commands(dist)
+        File "/private/var/folders/kl/4wkgjbfn4dv029bqvxk36j3h0000gn/T/pip-build-env-iw4phqlh/overlay/lib/python3.14/site-packages/setuptools/_distutils/core.py", line 184, in run_commands
+          dist.run_commands()
+          ~~~~~~~~~~~~~~~~~^^
+        File "/private/var/folders/kl/4wkgjbfn4dv029bqvxk36j3h0000gn/T/pip-build-env-iw4phqlh/overlay/lib/python3.14/site-packages/setuptools/_distutils/dist.py", line 1028, in run_commands
+          self.run_command(cmd)
+          ~~~~~~~~~~~~~~~~^^^^^
+        File "/private/var/folders/kl/4wkgjbfn4dv029bqvxk36j3h0000gn/T/pip-build-env-iw4phqlh/overlay/lib/python3.14/site-packages/setuptools/dist.py", line 1106, in run_command
+          super().run_command(command)
+          ~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+        File "/private/var/folders/kl/4wkgjbfn4dv029bqvxk36j3h0000gn/T/pip-build-env-iw4phqlh/overlay/lib/python3.14/site-packages/setuptools/_distutils/dist.py", line 1047, in run_command
+          cmd_obj.run()
+          ~~~~~~~~~~~^^
+        File "/private/var/folders/kl/4wkgjbfn4dv029bqvxk36j3h0000gn/T/pip-build-env-iw4phqlh/overlay/lib/python3.14/site-packages/setuptools/command/bdist_wheel.py", line 454, in run
+          self.run_command("build")
+          ~~~~~~~~~~~~~~~~^^^^^^^^^
+        File "/private/var/folders/kl/4wkgjbfn4dv029bqvxk36j3h0000gn/T/pip-build-env-iw4phqlh/overlay/lib/python3.14/site-packages/setuptools/_distutils/cmd.py", line 342, in run_command
+          self.distribution.run_command(command)
+          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+        File "/private/var/folders/kl/4wkgjbfn4dv029bqvxk36j3h0000gn/T/pip-build-env-iw4phqlh/overlay/lib/python3.14/site-packages/setuptools/dist.py", line 1106, in run_command
+          super().run_command(command)
+          ~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+        File "/private/var/folders/kl/4wkgjbfn4dv029bqvxk36j3h0000gn/T/pip-build-env-iw4phqlh/overlay/lib/python3.14/site-packages/setuptools/_distutils/dist.py", line 1047, in run_command
+          cmd_obj.run()
+          ~~~~~~~~~~~^^
+        File "/private/var/folders/kl/4wkgjbfn4dv029bqvxk36j3h0000gn/T/pip-build-env-iw4phqlh/overlay/lib/python3.14/site-packages/setuptools/_distutils/command/build.py", line 137, in run
+          self.run_command(cmd_name)
+          ~~~~~~~~~~~~~~~~^^^^^^^^^^
+        File "/private/var/folders/kl/4wkgjbfn4dv029bqvxk36j3h0000gn/T/pip-build-env-iw4phqlh/overlay/lib/python3.14/site-packages/setuptools/_distutils/cmd.py", line 342, in run_command
+          self.distribution.run_command(command)
+          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+        File "/private/var/folders/kl/4wkgjbfn4dv029bqvxk36j3h0000gn/T/pip-build-env-iw4phqlh/overlay/lib/python3.14/site-packages/setuptools/dist.py", line 1106, in run_command
+          super().run_command(command)
+          ~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+        File "/private/var/folders/kl/4wkgjbfn4dv029bqvxk36j3h0000gn/T/pip-build-env-iw4phqlh/overlay/lib/python3.14/site-packages/setuptools/_distutils/dist.py", line 1047, in run_command
+          cmd_obj.run()
+          ~~~~~~~~~~~^^
+        File "<string>", line 145, in run
+        File "<string>", line 124, in build_libraries
+        File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/subprocess.py", line 420, in check_call
+          raise CalledProcessError(retcode, cmd)
+      subprocess.CalledProcessError: Command '['cmake', '-B', '/private/var/folders/kl/4wkgjbfn4dv029bqvxk36j3h0000gn/T/pip-install-y14w8jao/unicorn_4674c2a2b08e4db389554f395a06009b/src/build_python', '-DCMAKE_BUILD_TYPE=Release', '-S', '/private/var/folders/kl/4wkgjbfn4dv029bqvxk36j3h0000gn/T/pip-install-y14w8jao/unicorn_4674c2a2b08e4db389554f395a06009b/src']' returned non-zero exit status 1.
+      [end of output]
+  
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+  ERROR: Failed building wheel for unicorn
+Failed to build unicorn
+error: failed-wheel-build-for-install
+
+× Failed to build installable wheels for some pyproject.toml based projects
+╰─> unicorn
